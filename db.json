@@ -1,0 +1,44 @@
+{
+  "coursers": [
+    {
+      "id": 1,
+      "start_date": 1,
+      "end_date": 10,
+      "max_times": 3,
+      "code": "Nhungsieucute",
+      "user_min_amount": 200,
+      "user_max_amount": 100,
+      "budget_using": 20
+    },
+    {
+      "id": 2,
+      "start_date": 7,
+      "end_date": 20,
+      "max_times": 1,
+      "code": "Nhungsieucute2",
+      "user_min_amount": 50,
+      "user_max_amount": 50,
+      "budget_using": 20
+    },
+    {
+      "id": 3,
+      "start_date": 15,
+      "end_date": 30,
+      "max_times": 2,
+      "code": "Nhungsieucute3",
+      "user_min_amount": 100,
+      "user_max_amount": 50,
+      "budget_using": 20
+    },
+    {
+      "id": 4,
+      "start_date": 10,
+      "end_date": 30,
+      "max_times": 0,
+      "code": "Nhungsieucute4",
+      "user_min_amount": 500,
+      "user_max_amount": 250,
+      "budget_using": 20
+    }
+  ]
+}

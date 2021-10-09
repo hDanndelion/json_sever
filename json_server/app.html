@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div>
+        <h2>Danh sách khóa học</h2>
+
+        <ul id="list-courses"></ul>
+    </div>
+
+    <div>
+        <label for="">Name</label>
+        <input type="text" name="name">
+    </div>
+    <div>
+        <label for="">Description</label>
+        <input type="text" name="description">
+    </div>
+
+    <div>
+        <button id="create">Create</button>
+    </div> -->
+
+    <div>
+        <input type="number" id="numberMoney" name="money" min="1" placeholder="At here, import into positive integer ..." required>
+        <button id="next">Next</button>
+    </div>
+
+    <div>
+        <input type="radio" name="campaign" id="automatic">
+        <label for="">Automatic apply</label>
+        <p class="show">Not code at the current time</p>
+
+        <input type="radio" name="campaign" id="manually" value="manually">
+        <label for="">Manually apply</label>
+        
+        <input id="codeManually" type="text" name="code" placeholder="At here, import into your code ...">
+        <button id="apply" type="text">Apply</button>
+    </div>
+
+    <ul>
+        <li id="cash">Cash : 0</li>
+        <li id="point">Point : 0</li>
+        <p id="code"></p>
+    </ul>
+
+    <button id="payment">Make Payment</button>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</body>
+<script src="/json_server/app.js"></script>
+<script src="/json_server/test.js"></script>
+</html>
